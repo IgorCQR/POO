@@ -5,14 +5,13 @@ public class SmartTV {
     private boolean internet;
 
     public SmartTV(){
-
     }
+
     public SmartTV(String marca, String modelo,int volume, boolean internet){
         this.setMarca(marca);
         this.setModelo(modelo);
         this.setVolume(volume);
         this.internet = internet;
-
     }
 
     public void setVolume(int volume){
